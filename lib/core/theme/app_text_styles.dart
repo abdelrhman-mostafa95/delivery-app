@@ -50,10 +50,16 @@ class AppTextStyles {
     color: AppColors.textSecondaryColor,
   );
 
+  static TextStyle recomendadosTitleElement = _poppinsStyle(
+    size: 10.sp,
+    weight: FontWeight.w400,
+    color: AppColors.textPrimaryColor,
+  );
+
   static TextStyle sectionsPrice = _poppinsStyle(
     size: 14.sp,
     weight: FontWeight.w600,
-    color: AppColors.textSecondaryColor,
+    color: AppColors.textPrimaryColor,
   );
 
   static TextStyle lightGrayTitle = _poppinsStyle(
