@@ -1,8 +1,13 @@
-import 'package:delivery_app/features/home_screen/screen/home_screen.dart';
+import 'package:delivery_app/UI/home_screen/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await GoogleFonts.pendingFonts([GoogleFonts.poppins()]);
+
   runApp(const MyApp());
 }
 
@@ -17,7 +22,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const HomeScreen(),
+          home: HomeScreen(),
         );
       },
     );
