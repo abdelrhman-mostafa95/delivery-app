@@ -1,5 +1,5 @@
 import 'package:delivery_app/core/theme/app_text_styles.dart';
-import 'package:delivery_app/UI/cart/screens/cart_tab.dart';
+import 'package:delivery_app/UI/cart/screen/cart_tab.dart';
 import 'package:delivery_app/UI/details_screen/screen/details_screen.dart';
 import 'package:delivery_app/UI/home_screen/data/home_data.dart';
 import 'package:delivery_app/UI/home_screen/widgets/app_bar.dart';
