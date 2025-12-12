@@ -9,7 +9,7 @@ class NavbarCartButton extends StatelessWidget {
   static final double _outerCircleSize = 90.r;
   static final double _innerCircleSize = 58.r;
   static final double _iconSize = 24.r;
-  static final double _clipHeight = 70.r; // Cut top and bottom
+  static final double _clipHeight = 70.r;
   static const Color _gradientStart = Color(0xFF6C3BFF);
   static const Color _gradientEnd = Color(0xFF5117AC);
 
@@ -18,7 +18,6 @@ class NavbarCartButton extends StatelessWidget {
     return Stack(
       alignment: Alignment.center,
       children: [
-        // Outer white circle - clipped from top and bottom
         ClipRect(
           child: SizedBox(
             width: _outerCircleSize,
@@ -36,7 +35,6 @@ class NavbarCartButton extends StatelessWidget {
             ),
           ),
         ),
-        // Inner gradient circle with cart icon
         SizedBox(
           width: _innerCircleSize,
           height: _innerCircleSize,

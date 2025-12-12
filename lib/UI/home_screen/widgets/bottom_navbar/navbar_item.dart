@@ -3,15 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'bottom_nav_item.dart';
 
-/// Individual navigation item widget for the bottom navbar
 class NavbarItem extends StatelessWidget {
-  /// The navigation item data
   final BottomNavItem item;
 
-  /// Whether this item is currently selected
   final bool isSelected;
 
-  /// Callback when the item is tapped
   final VoidCallback onTap;
 
   const NavbarItem({
@@ -21,16 +17,10 @@ class NavbarItem extends StatelessWidget {
     required this.onTap,
   });
 
-  // ============================================
-  // Constants
-  // ============================================
   static const double _splashRadius = 36.0;
   static const double _verticalPadding = 14.0;
   static const double _unselectedOpacity = 0.58;
 
-  // ============================================
-  // Colors
-  // ============================================
   static const Color _splashColor = Color(0xFF5117AC);
 
   @override

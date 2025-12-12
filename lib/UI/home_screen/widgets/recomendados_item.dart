@@ -74,9 +74,7 @@ class RecomendadosItem extends StatelessWidget {
                       ),
                     ],
                   ),
-                  // Title
                   Text(title, style: AppTextStyles.recomendadosTitleElement),
-                  // Description
                   Text(
                     description,
                     style: AppTextStyles.popularSecondaryElement,
