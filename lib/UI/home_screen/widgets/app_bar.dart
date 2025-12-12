@@ -1,6 +1,6 @@
 import 'package:delivery_app/core/theme/app_colors.dart';
 import 'package:delivery_app/core/theme/app_text_styles.dart';
-import 'package:delivery_app/features/home_screen/widgets/search_container.dart';
+import 'package:delivery_app/UI/home_screen/widgets/search_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
